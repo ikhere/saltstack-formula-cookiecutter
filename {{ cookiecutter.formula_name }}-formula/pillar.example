@@ -1,7 +1,0 @@
-# -*- mode: yaml -*-
-{{ cookiecutter.formula_name }}:
-  overrides:
-    pkg: {{ cookiecutter.formula_name }}
-    conf_file: /usr/local/etc/{{ cookiecutter.formula_name }}/{{ cookiecutter.formula_name }}.conf
-  config:
-    key: othervalue
